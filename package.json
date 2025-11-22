@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest",
-    "lint": "eslint --fix ."
+    "lint": "eslint --fix .",
+    "benchmark": "node scripts/run-benchmarks.js"
   },
   "keywords": [],
   "author": "Alejandro Perea",
