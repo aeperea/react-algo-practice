@@ -2,10 +2,10 @@ import {useState} from "react";
 
 const MAX_RATING = 5;
 
-const Star = ({filled = false, ref}) => {
+const Star = ({filled = false}) => {
   if (filled) {
     return (
-      <span ref={ref}>
+      <span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="star-icon star-icon-filled"
@@ -24,7 +24,7 @@ const Star = ({filled = false, ref}) => {
     );
   } else {
     return (
-      <span ref={ref}>
+      <span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="star-icon"
