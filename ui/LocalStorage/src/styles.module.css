@@ -1,0 +1,45 @@
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+}
+
+.TrafficLightHorizontal {
+  background-color: #000;
+  border-radius: 8px;
+  display: flex;
+  padding: 8px;
+  gap: 8px;
+}
+
+.TrafficLightVertical {
+  flex-direction: column;
+  background-color: #000;
+  border-radius: 8px;
+  display: flex;
+  padding: 8px;
+  gap: 8px;
+}
+
+.light {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 5px;
+  border-style: solid;
+  border-color: #000;
+}
+
+.red {
+  background-color: #d41313;
+}
+
+.yellow {
+  background-color: #ffee00;
+}
+
+.green {
+  background-color: #1ce002;
+}
