@@ -23,3 +23,5 @@ function minAbsoluteDiff(arr) {
 
 console.log(minAbsoluteDiff([4,2,1,3]));
 console.log(minAbsoluteDiff([0,5,-10,99, 104]));
+
+const node = (value, left = null, right = null) => ({value, left,  right});
